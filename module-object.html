@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module Object</title>
+</head>
+<body>
+<script type="module">
+
+    import * as yan from "./scripts/module-object.js";
+
+    console.info(yan.firstName);
+    console.info(yan.middleName);
+    console.info(yan.lastName);
+
+    yan.hello();
+
+    const person = new yan.Person();
+
+</script>
+</body>
+</html>
